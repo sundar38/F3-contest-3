@@ -29,7 +29,7 @@ function validate(e) {
     if (re.test(teachermail)) {
         if (teachercpw != " " && teacherpw != "") {
             if (teacherpw == teachercpw) {
-                window.location.href = "/login.html"
+                window.location.href = "login.html"
                 console.log("hi");
             }
             console.log("both are not matching");
