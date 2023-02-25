@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+form{
+    padding: 15px;
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.headings{
+    display: flex;
+
+}
+.headings li{
+    list-style-type: none;
+    padding: 10px;
+}
+#signup{
+    margin: 5px 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+#alertmsg{
+    color: red;
+}
